@@ -43,6 +43,20 @@ $ php map.php --road_type=urban --road_length=900
 +---------------------------+----------------+
 ```
 
+For Testing run the following command.
+
+
+```sh
+$ vendor/bin/phpunit tests/Urban
+PHPUnit 9.2.5 by Sebastian Bergmann and contributors.
+
+..                                                                  2 / 2 (100%)
+
+Time: 00:00.065, Memory: 6.00 MB
+
+OK (2 tests, 2 assertions)
+```
+
 License
 ----
 
