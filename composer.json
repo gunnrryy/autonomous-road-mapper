@@ -16,7 +16,8 @@
     "autoload": {
         "psr-4": {
             "src\\": "src/"
-        }
+        },
+        "files": ["includes/Functions.php"]
     },
     "autoload-dev": {
         "psr-4": {
